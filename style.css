@@ -1,0 +1,171 @@
+body {
+    font-family: 'Shippori Mincho B1', serif;
+    background-color: #F0EFEB;
+}
+
+.container {
+	width: auto;
+	position: relative;
+	margin: 0 auto;
+}
+
+.banner {
+    position: relative;
+    margin: top 0px left 0px;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: flex;
+ }
+
+.title {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 25px;
+    border-bottom: solid 1px rgb(10,10,10);
+    
+} 
+
+ .profile-picture {
+     width: 100px;
+     border-radius: 50%;
+     position: absolute; top:280px; left:47%; bottom: 20px;
+}
+
+ nav {
+	position: absolute;
+	top: 100px;
+	right: 20px;
+
+}
+
+nav li {
+
+	display: inline-block;
+	margin-left: 15px;
+}
+
+nav a {
+
+	color: rgb(0,0,0);
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+nav i:hover { 
+
+	color: rgb(193,0,22);
+	text-decoration: none;
+	
+ }
+
+ nav i {
+
+	color: rgb(0,0,0);
+	font-size: 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+.title-2 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.produtos {
+
+	padding: 50px 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.produtos li {
+
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px rgb(0,0,0) solid;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+
+	border-color: rgb(193,0,22)
+
+}
+
+
+.produtos li:hover h2 {
+	font-size: 35px;
+
+}
+
+.produtos h2 {
+
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+
+	font-size: 18px;
+
+}
+
+.produtos-icones{
+	width: 60px;
+}
+
+footer {
+
+	text-align: center;
+	background: url("images/bg.jpg");
+	padding: 40px 0;
+}
+
+.mandalorian {
+    color: white;
+}
+
+.copyright {
+
+	color: rgb(255,255,255);
+	font-size: 13px;
+	margin-top: 20px; ;
+}
+
+@media (max-width: 960px) {
+	/* For a screen < 960px, this CSS will be read */
+	.container {
+	  width: 700px;
+	}
+  }
+  @media (max-width: 720px) {
+	/* For a screen < 720px, this CSS will be read */
+	.container {
+	  width: 500px;
+	}
+  }
+  @media (max-width: 540px) {
+	/* For a screen < 540px, this CSS will be read */
+	.container {
+	  width: 300px;
+	}
+  }
+
+
+
+
+ 
